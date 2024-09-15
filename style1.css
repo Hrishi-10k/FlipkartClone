@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  margin-top: 12px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+.logo {
+  margin-right: 13px;
+}
+.search-bar {
+  display: flex;
+  width: 67%;
+  height: 46px;
+  padding: 1px;
+  /* font-weight: 18px; */
+}
+
+.search-bar input {
+  background: #e0ecff;
+  width: 90%;
+  padding: 8px;
+  border-radius: 4px 0 0 4px;
+  border: none;
+}
+.search-bar button {
+  padding: 8px 16px;
+  background-color: orange;
+  border: none;
+  cursor: pointer;
+  border-radius: 0 4px 4px 0;
+}
+
+.nav-links a {
+  margin-left: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+.category{
+  display:flex;
+  background:whitesmoke;
+  margin-right: -9%;
+  padding: 0;
+}
+.image-box{
+  height: 0;
+}
+.box {
+  width: 23%;
+  background-color: white;
+  padding: 20px 0px 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  cursor: pointer;
+  align-items: center;
+}
+.image-box {
+  height: 64px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-size: cover;
+  cursor: pointer;
+  max-width:39%;
+}
+.box-content {
+  margin-left: 8rem;
+}
+
+.box-content a {
+  text-decoration: none;
+  color: #007185;
+}
+
+.box-content a:hover {
+  text-decoration: underline;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.products {
+  padding: 20px;
+  text-align: center;
+}
+
+.products h2 {
+  margin-bottom: 20px;
+}
+
+.product-grid {
+  display: flex;
+  justify-content: space-around;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  color: #388e3c;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.product-card button {
+  background-color: #2874f0;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 30px;
+}
